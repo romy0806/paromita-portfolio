@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Healthcare Opioid Risk Prediction | Paromita Das</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <a class="logo" href="../index.html">Paromita Das</a>
+
+        <div class="nav-links">
+            <a href="../index.html#projects">Projects</a>
+            <!--
+            <a href="../index.html#industries">Industries</a>
+            <a href="../index.html#about">About</a>
+            -->
+            <a href="../index.html#skills">Skills</a>
+            <a href="../Paromita Das_Resume.pdf" target="_blank">Resume</a>
+            <a href="https://github.com/romy0806" target="_blank">GitHub</a>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-content">
+                <p class="eyebrow">MACHINE LEARNING PROJECT</p>
+
+                <h1>Healthcare Opioid Risk Prediction</h1>
+
+                <p class="professional-title">
+                    Predictive Modeling for Long-Term Opioid Risk
+                </p>
+
+                <h2>
+                    Identify patients at elevated risk of long-term opioid use using healthcare claims data and machine learning.
+
+                </h2>
+
+                <p class="hero-description">
+                    Developed and compared Logistic Regression, LASSO, and Random Forest models to support earlier risk identification and more informed healthcare interventions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="button button-primary" 
+                       href="#features">
+                        Explore Case Study
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="https://github.com/romy0806/personalization-engine-content-optimization"
+                        target="_blank"
+                    >
+                        View GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+    <img src="../images/profile.png" alt="Paromita Das" class="profile-photo">
+</div>
+
+</section>
+<section class="case-study" id="features">
+
+    <div class="container">
+
+        <p class="section-label">BUSINESS CHALLENGE</p>
+
+        <h2>Why This Project?</h2>
+
+        <h3>The Problem</h3>
+        <p>
+            Traditional content platforms often recommend the same articles to every reader,
+            ignoring individual interests and browsing behavior. This results in lower
+            engagement, reduced click-through rates, and missed opportunities to deliver
+            more personalized experiences.
+        </p>
+
+        <h3>The Goal</h3>
+        <p>
+            The objective was to build a machine learning solution that segments readers
+            based on behavioral patterns and predicts the likelihood of content engagement,
+            enabling more relevant and personalized content recommendations.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">BUSINESS SNAPSHOT</p>
+
+<h2>Model Performance at a Glance</h2>
+
+<div class="impact-grid">
+
+    <div class="impact-card">
+        <h3>7,000</h3>
+        <p>Patients modeled</p>
+    </div>
+
+    <div class="impact-card">
+        <h3>210</h3>
+        <p>Predictive features engineered</p>
+    </div>
+
+    <div class="impact-card">
+        <h3>0.89 AUC</h3>
+        <p>Best model performance (Random Forest)</p>
+    </div>
+
+    <div class="impact-card">
+        <h3>81.6%</h3>
+        <p>Prediction accuracy</p>
+    </div>
+
+</div>
+</div>
+
+</section>
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">SOLUTION OVERVIEW</p>
+
+<h2>How the Predictive Model Works</h2>
+
+<p>
+The solution transforms raw healthcare claims data into patient-level features that describe prescription history, medical events, provider interactions, and utilization patterns. These engineered variables are used to estimate the probability of a patient progressing to Long-Term Opioid Therapy (LTOT).
+</p>
+
+<p>
+Multiple machine learning approaches were evaluated—including Logistic Regression, LASSO, Decision Trees, and Random Forest—to identify the model that best balanced predictive accuracy and clinical interpretability. Random Forest achieved the strongest overall performance and was selected as the final model for risk prediction.
+</p>
+
+    </div>
+
+</section>
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">MODELING APPROACH</p>
+
+<h2>Predictive Analytics Workflow</h2>
+
+<div class="feature-grid">
+
+    <div class="feature-card">
+        <h3>🧹 Data Preparation</h3>
+        <p>
+            Restructured claims data from multiple event-level records into one patient-level record and engineered ratio-based variables to normalize differences in member history.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>⚙️ Feature Selection</h3>
+        <p>
+            Reduced the original 210 variables using stepwise regression, LASSO, and model-based importance to identify the strongest predictors of long-term opioid therapy.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>🧠 Model Comparison</h3>
+        <p>
+            Evaluated Logistic Regression, LASSO, Elastic Net, Decision Trees, and Random Forest using ROC-AUC as the primary selection metric.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📊 Risk Scoring</h3>
+        <p>
+            Produced patient-level probabilities of progressing to long-term opioid therapy and ranked members for potential early intervention.
+        </p>
+    </div>
+
+</div>
+
+        </div>
+
+</section>
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">MODEL PERFORMANCE</p>
+
+<h2>Comparing Machine Learning Models</h2>
+
+<p>
+Multiple predictive models were evaluated to identify the best-performing approach for estimating Long-Term Opioid Therapy (LTOT) risk. Random Forest delivered the strongest overall predictive performance while maintaining high sensitivity and specificity.
+</p>
+
+        <img
+    src="../images/healthcare-opioid-infographic.png"
+    alt="Healthcare Opioid Risk Prediction Workflow"
+    class="case-study-image"
+>
+
+    </div>
+
+</section>
+
+
+<!-- BUSINESS IMPACT -->
+
+<section class="case-study">
+
+    <div class="container">
+
+      <p class="section-label">BUSINESS IMPACT</p>
+
+<h2>Supporting Earlier Intervention and Better Clinical Decisions</h2>
+
+<p>
+The model was designed to help insurers and healthcare providers identify members
+at elevated risk of Long-Term Opioid Therapy before opioid use becomes chronic.
+Earlier risk identification can support more informed prescribing decisions,
+targeted intervention, and potentially lower downstream treatment costs.
+</p>
+
+<div class="impact-grid">
+
+    <div class="impact-card">
+        <h3>Earlier Risk Identification</h3>
+        <p>
+            Patient-level risk probabilities can help clinicians and insurers prioritize
+            members who may benefit from additional review or preventive intervention.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Clinical Decision Support</h3>
+        <p>
+            The model provides an additional data-driven signal to support opioid
+            prescribing decisions alongside clinical judgment.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Potential Cost Savings</h3>
+        <p>
+            The case-study cost-benefit analysis estimated approximately $30,600
+            in savings across a hypothetical sample of 1,400 patients.
+        </p>
+    </div>
+
+</div>
+
+        </div>
+
+
+</section>
+
+<!-- TECHNOLOGY STACK -->
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">TECHNOLOGY STACK</p>
+
+<h2>Technologies Used</h2>
+
+<p>
+The project combines data preparation, statistical modeling, and machine learning
+to predict Long-Term Opioid Therapy (LTOT) risk using healthcare claims data.
+</p>
+
+<div class="tech-grid">
+
+    <div class="tech-card">
+        <h3>Python</h3>
+        <p>Used for data preparation, feature engineering, and predictive modeling.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Pandas</h3>
+        <p>Transformed event-level healthcare claims into patient-level analytical datasets.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Scikit-learn</h3>
+        <p>Implemented Logistic Regression, LASSO, Decision Trees, and Random Forest models.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Jupyter Notebook</h3>
+        <p>Developed and evaluated the end-to-end predictive modeling workflow.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Healthcare Claims Data</h3>
+        <p>Analyzed prescription history, medical events, and patient utilization patterns to engineer predictive features.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Model Evaluation</h3>
+        <p>Compared models using ROC-AUC, Accuracy, Sensitivity, and Specificity.</p>
+    </div>
+
+</div>
+
+<p class="project-note">
+<strong>Case Study:</strong> Humana–Mays Healthcare Analytics Case Competition (2019). The objective was to predict Long-Term Opioid Therapy (LTOT) risk using de-identified healthcare claims data to support earlier clinical intervention and improve prescribing decisions.
+</p>
+
+<p class="project-note">
+<a href="https://msnews.github.io/" target="_blank">
+View Dataset Documentation →
+</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://aclanthology.org/2020.acl-main.331/" target="_blank">
+Read ACL 2020 Research Paper →
+</a>
+</p>
+    </div>
+
+</section>
+
+
+
+
+<!-- FUTURE ROADMAP -->
+
+<section class="case-study roadmap-section">
+
+    <div class="container">
+
+    <p class="section-label">FUTURE ROADMAP</p>
+
+<h2>Future Enhancements</h2>
+
+<div class="feature-grid">
+
+    <div class="feature-card">
+        <h3>🤖 Explainable AI (XAI)</h3>
+        <p>
+            Integrate SHAP and LIME to explain patient-level risk predictions,
+            helping clinicians understand the key factors influencing each decision.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>⚡ Real-Time Risk Scoring</h3>
+        <p>
+            Deploy the model through secure APIs to generate opioid risk scores
+            during the prescription workflow for immediate clinical decision support.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📈 Continuous Model Monitoring</h3>
+        <p>
+            Monitor prediction quality, detect model drift, and automatically
+            retrain models as patient populations and prescribing patterns evolve.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>☁️ Enterprise Healthcare Platform</h3>
+        <p>
+            Integrate with electronic health records (EHR) and healthcare analytics
+            platforms to support scalable, organization-wide clinical decision making.
+        </p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- GITHUB CTA -->
+
+<section class="project-cta">
+
+    <div class="container project-cta-content">
+
+        <p class="section-label">VIEW THE CASE STUDY</p>
+
+        <h2>Review the Complete Case Study</h2>
+
+        <p>
+            Explore the full project presentation, including the business problem,
+            data preparation, feature engineering, model comparison, performance
+            evaluation, and healthcare recommendations from the Humana–Mays
+            Healthcare Analytics Case Competition.
+        </p>
+
+        <a
+            href="../files/humana-opioid-risk-case-study.pdf"
+            target="_blank"
+            class="button button-primary"
+        >
+            View Case Study (PDF)
+        </a>
+
+    </div>
+
+</section>
+
+<section class="projects-section" id="projects">
+
+    <div class="section-heading">
+        <p class="section-label">Featured Work</p>
+        <h2>Analytics, Machine Learning, and AI Projects</h2>
+        <p>
+            Selected projects demonstrating business problem-solving,
+            technical execution, and executive decision support.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card project-card-featured">
+                <img
+        src="../images/executive-dashboard.jpg"
+        alt="Executive Analytics Intelligence dashboard"
+        class="project-image"
+    >
+
+            <div class="project-content">
+                <p class="project-type">AI & Executive Analytics</p>
+
+                <h3>Executive Analytics Intelligence</h3>
+
+                <p>
+                    AI-powered decision-support platform combining finance,
+                    product, marketing, customer, support, and social data
+                    into one connected executive view.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Streamlit</span>
+                    <span>OpenAI</span>
+                    <span>Plotly</span>
+                    <span>Executive Analytics</span>
+                </div>
+
+                <a href="executive-analytics.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Customer Analytics</p>
+
+                <h3>Customer Growth Recommendation Engine</h3>
+
+                <p>
+                    Customer intelligence platform using RFM segmentation,
+                    market basket analysis, and next-best-product recommendations
+                    to identify revenue growth opportunities.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>RFM</span>
+                    <span>Market Basket Analysis</span>
+                    <span>Recommendations</span>
+                </div>
+
+                <a href="customer-growth.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Machine Learning</p>
+
+                <h3>Personalization Engine for Content Optimization</h3>
+
+                <p>
+                    Machine learning solution using customer segmentation
+                    and predictive modeling to improve engagement and
+                    click-through performance.
+                </p>
+
+                <div class="project-tags">
+                    <span>K-Means</span>
+                    <span>Logistic Regression</span>
+                    <span>Segmentation</span>
+                    <span>Personalization</span>
+                </div>
+
+                <a href="personalization.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Healthcare Analytics</p>
+
+                <h3>Healthcare Opioid Risk Prediction</h3>
+
+                <p>
+                    Predictive modeling project using healthcare claims data
+                    to identify long-term opioid risk and support provider
+                    and insurer decision-making.
+                </p>
+
+                <div class="project-tags">
+                    <span>Random Forest</span>
+                    <span>Logistic Regression</span>
+                    <span>Feature Engineering</span>
+                    <span>Healthcare</span>
+                </div>
+
+                <a href="healthcare.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personalization Engine | Paromita Das</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <a class="logo" href="../index.html">Paromita Das</a>
+
+        <div class="nav-links">
+            <a href="../index.html#projects">Projects</a>
+            <!--
+            <a href="../index.html#industries">Industries</a>
+            <a href="../index.html#about">About</a>
+            -->
+            <a href="../index.html#skills">Skills</a>
+            <a href="../Paromita Das_Resume.pdf" target="_blank">Resume</a>
+            <a href="https://github.com/romy0806" target="_blank">GitHub</a>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero-content">
+                <p class="eyebrow">MACHINE LEARNING PROJECT</p>
+
+                <h1>Personalization Engine for Content Optimization</h1>
+
+                <p class="professional-title">
+                    Machine Learning Content Recommendation System
+                </p>
+
+                <h2>
+                    Improve content relevance and click-through performance by combining
+                    audience segmentation with predictive modeling.
+
+                </h2>
+
+                <p class="hero-description">
+                    Built using K-Means clustering and logistic regression to identify audience
+                    segments, predict engagement, and support more relevant content recommendations.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="button button-primary" 
+                       href="#features">
+                        Explore Case Study
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="https://github.com/romy0806/personalization-engine-content-optimization"
+                        target="_blank"
+                    >
+                        View GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+    <img src="../images/profile.png" alt="Paromita Das" class="profile-photo">
+</div>
+
+</section>
+<section class="case-study" id="features">
+
+    <div class="container">
+
+        <p class="section-label">BUSINESS CHALLENGE</p>
+
+        <h2>Why This Project?</h2>
+
+        <h3>The Problem</h3>
+        <p>
+            Traditional content platforms often recommend the same articles to every reader,
+            ignoring individual interests and browsing behavior. This results in lower
+            engagement, reduced click-through rates, and missed opportunities to deliver
+            more personalized experiences.
+        </p>
+
+        <h3>The Goal</h3>
+        <p>
+            The objective was to build a machine learning solution that segments readers
+            based on behavioral patterns and predicts the likelihood of content engagement,
+            enabling more relevant and personalized content recommendations.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">BUSINESS SNAPSHOT</p>
+
+        <h2>Model Performance at a Glance</h2>
+
+<div class="impact-grid">
+
+    <div class="impact-card">
+        <h3>Microsoft MIND</h3>
+        <p>
+            Large-scale public news recommendation dataset from Microsoft Research
+            containing 160K news articles, 15M+ impression logs, and behavior from
+            over 1 million anonymized users.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Multiple Data Sources</h3>
+        <p>
+            Combined user behavior logs, news metadata, and historical click
+            activity to engineer features for personalization modeling.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>21% Improvement</h3>
+        <p>
+            Improved click prediction performance from AUC 0.57 to 0.69 using
+            customer segmentation and machine learning.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Machine Learning</h3>
+        <p>
+            Combined K-Means clustering with Logistic Regression to recommend
+            more relevant news content based on user behavior.
+        </p>
+    </div>
+
+</div>
+</div>
+
+</section>
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">SOLUTION OVERVIEW</p>
+
+        <h2>How the Personalization Engine Works</h2>
+
+        <p>
+            The project combines user behavior, historical click activity, and news article metadata from the Microsoft MIND dataset to build a machine learning model for content personalization. Multiple datasets were integrated and transformed into behavioral features that describe reader interests and engagement patterns.
+        </p>
+
+        <p>
+            K-Means clustering groups readers with similar browsing behavior, while Logistic Regression predicts the likelihood of clicking a news article. Together, these techniques demonstrate how machine learning can improve content relevance and support more personalized user experiences.
+        </p>
+
+    </div>
+
+</section>
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">KEY FEATURES</p>
+
+<h2>Machine Learning Capabilities</h2>
+
+<div class="feature-grid">
+
+    <div class="feature-card">
+        <h3>👥 Audience Segmentation</h3>
+        <p>
+            Applied K-Means clustering to group readers with similar browsing behavior and content preferences.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📰 Engagement Prediction</h3>
+        <p>
+            Built a Logistic Regression model to estimate the likelihood that a user will engage with recommended content.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>⚙️ Feature Engineering</h3>
+        <p>
+            Combined user behavior, click history, and news article metadata to create meaningful predictive features.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>📊 Model Evaluation</h3>
+        <p>
+            Evaluated model performance using ROC-AUC and demonstrated a 21% improvement in click prediction accuracy.
+        </p>
+    </div>
+
+</div>
+
+        </div>
+
+</section>
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">MODEL DEVELOPMENT</p>
+
+        <h2>From User Behavior to Click Prediction</h2>
+
+        <p>
+            The modeling workflow combines user interaction history, article metadata,
+            and engineered behavioral features to identify audience patterns and
+            predict content engagement.
+        </p>
+         <p>
+            K-Means clustering was used to create reader segments, followed by
+            Logistic Regression to estimate click likelihood. Model performance was
+            evaluated using ROC-AUC, improving from 0.57 to 0.69.
+        </p>
+
+        <img
+    src="../images/personalization-overview.png"
+    alt="Personalization Engine overview"
+    class="case-study-image"
+>
+
+    </div>
+
+</section>
+
+
+<!-- BUSINESS IMPACT -->
+
+<section class="case-study">
+
+    <div class="container">
+
+       <p class="section-label">BUSINESS IMPACT</p>
+
+<h2>Driving Engagement and Revenue Through Personalization</h2>
+
+<p>
+The project demonstrates how machine learning can help digital publishers deliver
+more relevant content experiences by understanding reader behavior and predicting
+engagement. More personalized recommendations can increase click-through rates,
+improve session depth, encourage repeat visits, and ultimately create opportunities
+to grow advertising revenue and subscription conversion.
+</p>
+
+<div class="impact-grid">
+
+    <div class="impact-card">
+        <h3>Higher Engagement</h3>
+        <p>
+            Predictive models identify readers who are more likely to engage with
+            recommended content, improving content relevance and user experience.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Revenue Growth Potential</h3>
+        <p>
+            Better personalization can increase page views, advertising impressions,
+            subscription conversions, and long-term customer lifetime value.
+        </p>
+    </div>
+
+    <div class="impact-card">
+        <h3>Smarter Content Decisions</h3>
+        <p>
+            Audience segmentation provides actionable insights that help editorial
+            and product teams optimize content strategy and recommendation algorithms.
+        </p>
+    </div>
+
+</div>
+
+        </div>
+
+
+</section>
+
+<!-- TECHNOLOGY STACK -->
+
+<section class="case-study">
+
+    <div class="container">
+
+        <p class="section-label">TECHNOLOGY STACK</p>
+
+<h2>Technologies Used</h2>
+
+<p>
+The project combines data engineering, machine learning, and predictive analytics
+to transform large-scale user behavior data into actionable personalization insights.
+</p>
+
+<div class="tech-grid">
+
+    <div class="tech-card">
+        <h3>Python</h3>
+        <p>Core programming language for data processing and machine learning.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Pandas</h3>
+        <p>Data preparation, feature engineering, and transformation of multiple Microsoft MIND datasets.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Scikit-learn</h3>
+        <p>Implemented K-Means clustering and Logistic Regression for audience segmentation and click prediction.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Jupyter Notebook</h3>
+        <p>Developed, tested, and documented the end-to-end machine learning workflow.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Matplotlib</h3>
+        <p>Visualized model performance, ROC curves, and exploratory data analysis.</p>
+    </div>
+
+    <div class="tech-card">
+        <h3>Microsoft Research MIND Dataset</h3>
+        <p>Public benchmark dataset for news recommendation research containing user behavior and article metadata.</p>
+    </div>
+
+</div>
+<p class="project-note">
+<strong>Data Source:</strong> Microsoft MIND (Microsoft News Dataset), released by Microsoft Research, is a large-scale public benchmark for news recommendation research. The dataset contains approximately <strong>160K news articles</strong>, <strong>15M+ impression logs</strong>, and behavioral data from <strong>1M+ anonymized users</strong>.
+</p>
+
+<p class="project-note">
+<a href="https://msnews.github.io/" target="_blank">
+View Dataset Documentation →
+</a>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://aclanthology.org/2020.acl-main.331/" target="_blank">
+Read ACL 2020 Research Paper →
+</a>
+</p>
+    </div>
+
+</section>
+
+
+
+
+<!-- FUTURE ROADMAP -->
+
+<section class="case-study roadmap-section">
+
+    <div class="container">
+
+    <p class="section-label">FUTURE ROADMAP</p>
+
+<h2>Future Enhancements</h2>
+
+<div class="feature-grid">
+
+    <div class="feature-card">
+        <h3>🤖 AI Content Recommendation Copilot</h3>
+        <p>
+            Integrate large language models to explain why articles are recommended,
+            summarize reader interests, and generate personalized content insights.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>⚡ Real-Time Personalization</h3>
+        <p>
+            Deploy the recommendation model to generate personalized content
+            dynamically as users browse the platform.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>🧪 A/B Testing & Model Monitoring</h3>
+        <p>
+            Continuously evaluate recommendation quality using online experiments,
+            monitor model drift, and retrain models as user behavior evolves.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <h3>☁️ Production ML Pipeline</h3>
+        <p>
+            Deploy the solution using cloud infrastructure with automated feature
+            engineering, model retraining, and scalable recommendation APIs.
+        </p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+<!-- GITHUB CTA -->
+
+<section class="project-cta">
+
+    <div class="container project-cta-content">
+
+        <p class="section-label">EXPLORE THE PROJECT</p>
+
+        <h2>Explore the Modeling Workflow</h2>
+
+        <p>
+            Review the data preparation, feature engineering, audience segmentation,
+            click prediction model, evaluation results, and project documentation
+            developed using the Microsoft MIND dataset.
+        </p>
+
+        <a
+            href="https://github.com/romy0806/personalization-engine-content-optimization"
+            target="_blank"
+            class="button button-primary"
+        >
+            View Project on GitHub
+        </a>
+
+    </div>
+
+</section>
+
+<section class="projects-section" id="projects">
+
+    <div class="section-heading">
+        <p class="section-label">Featured Work</p>
+        <h2>Analytics, Machine Learning, and AI Projects</h2>
+        <p>
+            Selected projects demonstrating business problem-solving,
+            technical execution, and executive decision support.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card project-card-featured">
+                <img
+        src="../images/executive-dashboard.jpg"
+        alt="Executive Analytics Intelligence dashboard"
+        class="project-image"
+    >
+
+            <div class="project-content">
+                <p class="project-type">AI & Executive Analytics</p>
+
+                <h3>Executive Analytics Intelligence</h3>
+
+                <p>
+                    AI-powered decision-support platform combining finance,
+                    product, marketing, customer, support, and social data
+                    into one connected executive view.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Streamlit</span>
+                    <span>OpenAI</span>
+                    <span>Plotly</span>
+                    <span>Executive Analytics</span>
+                </div>
+
+                <a href="executive-analytics.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Customer Analytics</p>
+
+                <h3>Customer Growth Recommendation Engine</h3>
+
+                <p>
+                    Customer intelligence platform using RFM segmentation,
+                    market basket analysis, and next-best-product recommendations
+                    to identify revenue growth opportunities.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>RFM</span>
+                    <span>Market Basket Analysis</span>
+                    <span>Recommendations</span>
+                </div>
+
+                <a href="customer-growth.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Machine Learning</p>
+
+                <h3>Personalization Engine for Content Optimization</h3>
+
+                <p>
+                    Machine learning solution using customer segmentation
+                    and predictive modeling to improve engagement and
+                    click-through performance.
+                </p>
+
+                <div class="project-tags">
+                    <span>K-Means</span>
+                    <span>Logistic Regression</span>
+                    <span>Segmentation</span>
+                    <span>Personalization</span>
+                </div>
+
+                <a href="personalization.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div class="project-content">
+                <p class="project-type">Healthcare Analytics</p>
+
+                <h3>Healthcare Opioid Risk Prediction</h3>
+
+                <p>
+                    Predictive modeling project using healthcare claims data
+                    to identify long-term opioid risk and support provider
+                    and insurer decision-making.
+                </p>
+
+                <div class="project-tags">
+                    <span>Random Forest</span>
+                    <span>Logistic Regression</span>
+                    <span>Feature Engineering</span>
+                    <span>Healthcare</span>
+                </div>
+
+                <a href="healthcare.html" class="project-link">
+                    View Case Study →
+                </a>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
