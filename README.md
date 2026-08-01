@@ -1,3 +1,4 @@
+![Portfolio Banner](images/portfolio-banner.png)
 # Paromita Das | Advanced Analytics & AI Portfolio
 
 Professional portfolio showcasing advanced analytics, machine learning, AI, customer intelligence, executive dashboards, and data science projects.
@@ -106,3 +107,66 @@ https://www.linkedin.com/in/paromita-das/
 
 GitHub:
 https://github.com/romy0806
+
+
+# 🚀 Portfolio Roadmap
+
+This portfolio is continuously evolving with production-style analytics and AI applications focused on solving real business problems.
+
+## ✅ Completed Projects
+
+- Executive Analytics Intelligence
+- Customer Growth Recommendation Engine
+- Personalization Engine for Content Optimization
+- Healthcare Opioid Risk Prediction
+
+---
+
+## 🔄 Currently Building
+
+### Marketing Analytics Copilot
+
+An AI-powered marketing analytics assistant that combines campaign measurement, customer segmentation, attribution, experimentation, and executive reporting into a conversational decision-support platform.
+
+**Planned Technologies**
+
+- Python
+- Streamlit
+- OpenAI
+- LangChain
+- Plotly
+- SQL
+
+---
+
+## 🔜 Coming Soon
+
+### Customer Intelligence Agent
+
+AI-powered customer intelligence platform for customer segmentation, churn prediction, lifetime value (LTV), next-best action recommendations, and retention strategy optimization.
+
+---
+
+### Executive Dashboard Chatbot
+
+A conversational AI assistant that enables executives to query Finance, Product, Marketing, Customer, and Operational KPIs using natural language and receive executive-ready insights and recommendations.
+
+---
+
+### Healthcare Demand Forecasting & Scenario Planning
+
+An AI-powered forecasting platform designed for healthcare and life sciences organizations to predict prescription demand, commercial performance, market growth, and revenue scenarios. The platform will combine machine learning, forecasting models, external market signals, and scenario planning to support strategic commercial decision-making.
+
+**Planned Technologies**
+
+- Python
+- Prophet
+- XGBoost
+- Scikit-learn
+- Streamlit
+- Plotly
+- OpenAI
+
+---
+
+More production-ready analytics and AI applications will be added as the portfolio continues to grow.
