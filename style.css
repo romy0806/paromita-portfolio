@@ -690,3 +690,7 @@ body {
     background: #295a9c;
     color: #ffffff;
 }
+
+.project-cta .hero-buttons {
+    justify-content: center;
+}
