@@ -28,6 +28,33 @@ My work combines:
 
 ## Featured Projects
 
+### Marketing Analytics Copilot
+
+Production-style marketing measurement workspace for campaign performance, marketing mix modeling, multi-touch attribution, experimentation, budget simulation, and client-ready reporting.
+
+[**Live Demo**](https://marketing-analytics-copilot.streamlit.app) | [**GitHub Repository**](https://github.com/romy0806/marketing-analytics-copilot)
+
+**Key capabilities**
+
+* Dynamic campaign, customer-journey, and experiment data uploads
+* Marketing mix modeling with adstock, saturation, seasonality, and holdout validation
+* Seven multi-touch attribution approaches, including Markov and Shapley methods
+* Statistical experiment evaluation and deterministic budget simulations
+* Branded PDF and PowerPoint reporting with adaptive trend granularity
+* Automated testing and continuous integration
+
+**Technology**
+
+* Python
+* Streamlit
+* Pandas
+* SciPy
+* Plotly
+* Statistics
+* GitHub Actions
+
+---
+
 ### Executive Analytics Intelligence
 AI-powered executive dashboard combining Finance, Product, Marketing, Customer, Support, and Social data into a unified executive decision-support platform.
 
@@ -115,27 +142,11 @@ This portfolio is continuously evolving with production-style analytics and AI a
 
 ## ✅ Completed Projects
 
+- Marketing Analytics Copilot
 - Executive Analytics Intelligence
 - Customer Growth Recommendation Engine
 - Personalization Engine for Content Optimization
 - Healthcare Opioid Risk Prediction
-
----
-
-## 🔄 Currently Building
-
-### Marketing Analytics Copilot
-
-An AI-powered marketing analytics assistant that combines campaign measurement, customer segmentation, attribution, experimentation, and executive reporting into a conversational decision-support platform.
-
-**Planned Technologies**
-
-- Python
-- Streamlit
-- OpenAI
-- LangChain
-- Plotly
-- SQL
 
 ---
 
